@@ -2191,8 +2191,8 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="ttt.vi" Type="VI" URL="../ttt.vi"/>
-		<Item Name="DetectionVoltage.ctl" Type="VI" URL="../CustomControl/DetectionVoltage.ctl"/>
 		<Item Name="Inverse Rotate.vi" Type="VI" URL="../SubVIs_Dental robot/Inverse Rotate.vi"/>
+		<Item Name="main.nodir.vi" Type="VI" URL="../main.nodir.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
