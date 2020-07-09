@@ -2279,8 +2279,11 @@ AddOutputFilter chunkFilter
 		<Item Name="ttt.vi" Type="VI" URL="../ttt.vi"/>
 		<Item Name="Inverse Rotate.vi" Type="VI" URL="../SubVIs_Dental robot/Inverse Rotate.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
-		<Item Name="servor rpm test.vi" Type="VI" URL="../servor rpm test.vi"/>
 		<Item Name="haomain.vi" Type="VI" URL="../haomain.vi"/>
+		<Item Name="PID r-y windup_chan.vi" Type="VI" URL="../SubVIs_Dental robot/PID r-y windup_chan.vi"/>
+		<Item Name="servor rpm test.vi" Type="VI" URL="../servor rpm test.vi"/>
+		<Item Name="velocity control.vi" Type="VI" URL="../velocity control.vi"/>
+		<Item Name="PID-position control.vi" Type="VI" URL="../PID-position control.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -2289,6 +2292,7 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Delay count.vi" Type="VI" URL="../SubVIs_Dental robot/Delay count.vi"/>
+			<Item Name="K avg filter.vi" Type="VI" URL="../SubVIs_Dental robot/K avg filter.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
