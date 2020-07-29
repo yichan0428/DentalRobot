@@ -1,0 +1,4 @@
+﻿  stdafx.cpp
+  ConsoleApplication2.cpp
+c:\users\yicha\desktop\dentalrobot\dental robot\cforlabview\consoleapplication2\consoleapplication2\consoleapplication2.cpp(9): error C3861: 'Untitled1': 找不到識別項
+c:\users\yicha\desktop\dentalrobot\dental robot\cforlabview\consoleapplication2\consoleapplication2\consoleapplication2.cpp(10): error C2143: 語法錯誤: 遺漏 ';' (在 'return' 之前)

@@ -27,8 +27,55 @@
 			<Item Name="myRIO Custom FPGA Project Documentation.html" Type="Document" URL="../documentation/myRIO Custom FPGA Project Documentation.html"/>
 		</Item>
 		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
+		<Item Name="Untitled 1.vi" Type="VI" URL="../../../Untitled 1.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="My DLL" Type="DLL">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{0F79E04E-55A4-4626-8D12-EC481589E55F}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{D721209F-7DF1-4EF2-A283-4CEB508BF27A}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{3FD9C08E-4702-4335-9E02-F99924F97C25}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">My DLL</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/yicha/Desktop/LV dll test</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{64F8FFF1-8F71-46B2-A60F-D9B8EFE535F2}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">SharedLib.dll</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/yicha/Desktop/LV dll test/SharedLib.dll</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/yicha/Desktop/LV dll test/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Dll_compatibilityWith2011" Type="Bool">false</Property>
+				<Property Name="Dll_delayOSMsg" Type="Bool">true</Property>
+				<Property Name="Dll_headerGUID" Type="Str">{15B4BE78-D3B4-4E54-ABE0-D05A50907551}</Property>
+				<Property Name="Dll_libGUID" Type="Str">{5F100823-A28E-461C-BA0A-1E49E656BE2C}</Property>
+				<Property Name="Dll_privateExecSys" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0122E33C-5A6F-4CA8-88FB-4BE5135115E7}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Untitled 1.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">ExportedVI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">My DLL</Property>
+				<Property Name="TgtF_internalName" Type="Str">My DLL</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright ?2020 </Property>
+				<Property Name="TgtF_productName" Type="Str">My DLL</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{ED45C2B7-A116-4F76-9E53-92047FF1AF89}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">SharedLib.dll</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 	<Item Name="NI-myRIO-1900-0319ad50" Type="RT myRIO">
 		<Property Name="alias.name" Type="Str">NI-myRIO-1900-0319ad50</Property>
